@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+body {
+  background-color: #b79492;
+  color: #ffffff;
+  font-family: 'Shadows Into Light', cursive;
+  letter-spacing: 3px;
+  margin: 0px 15px 15px 0px; 
+}
+
+p {
+  font-size: 16px;
+  text-align:center;
+}
+
+hgroup {
+  background-color: #545e56;
+  padding: auto;
+  height:auto;
+  text-align:center;
+  color: #eae1df;
+}
+h1 {
+  font-size: 50px;
+}
+h2{
+  font-size:40px;
+}
+h3{
+  font-size: 32px;
+  text-align:center;
+  height: autopx;
+  margin:25px;
+}
+h4 {
+  font-size: 28px;
+}
+h5 {
+  text-align: center;
+  font-size: 22px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+
+img.headshot {
+  display: block;
+  margin: auto;
+  padding: auto;
+  border-radius: 10px;
+  border: 3px solid #667761;
+}
+
+a img {
+  display: block;
+  margin: auto;
+}
+
+.repo, .demo {
+  color: #545e56;
+  background-color: #eae1df;
+  border-radius: 8px;
+  margin: 10px
+}
+
+.repo:hover, .demo:hover {
+  font-size: 125%;
+}
+ul.none {
+  list-style: none;
+}
+
+.item {
+  text-align: center;
+}
+
+.black {
+  background-color:#000000;
+  height: 20px
+}
+img.project {
+  width: 50%;
+  height: auto;
+  max-width: 400px;
+}
+li {
+  list-style-position:inside;
+  text-align:center;
+  font-size: 18px;
+  font-style:oblique;
+  height: 30px;
+}
+
+li:hover {
+  font-weight: bold;
+}
+li.python {
+  color: #ffd43b;
+}
+li.html {
+  color: #e34c26;
+}
+li.css {
+  color: #264de4;
+}
+li.javascript {
+  color: #f0db4f;
+}
+.group {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.item {
+  flex: 1;
+  margin: 10px
+}
+
+.item-double {
+  flex: 2;
+  margin: 10px;
+}
+
+form input, form textarea {
+  width: 100%;
+}
+
+form label {
+  display: block;
+  font-size:20px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  
+  
+}
+form input {
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 8px;
+}
+form textarea {
+  height: 150px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 8px;
+}
+form button {
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+
+@media all and (min-width: 800px) {
+  p {
+    font-size:18px
+  }
+  .group {
+    flex-direction: row;
+    justify-content:center;
+  }
+ form button {
+  display: block;
+ }
+ form input, form textarea {
+   width: 100%;
+ }
+  .straight {
+   display: block;
+   flex: 1;
+   padding-top: 10px;
+ }
+ a {
+   margin: 30px;
+ }
+  
+}
+
